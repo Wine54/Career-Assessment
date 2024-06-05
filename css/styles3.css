@@ -1,0 +1,96 @@
+/* Body Styles */
+body.forgot_class {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Container Styles */
+.forgot_container {
+    position: relative;
+    width: 28rem;
+    height: 30rem;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 1.5rem;
+    background: white;
+}
+
+/* Link Styles */
+.forgot_container a {
+    text-decoration: none;
+}
+
+/* Logo Styles */
+.forgot_logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+/* Heading Styles */
+.forgot_password_h1 {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    text-align:center;
+    font-size: 1.8rem;
+}
+
+/* Input Styles */
+.forgot_input {
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 12px;
+    margin-bottom: .5rem;
+    padding-left: 1rem;
+    padding-right: 4rem;
+}
+
+/* Button Styles */
+.forgot_button {
+    width: 100%;
+    height: 2.5rem;
+    background: #0E46A3;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+/* Signup/Login Styles */
+.login_signup {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+/* Shared */
+
+.sign_password_design {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/* Hide/Unhide Password Button */
+.sign_password_design img,
+.hide_unhide_password_button {
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    right: 0.8rem;
+    margin-top: -0.9rem;
+    border: none;
+    outline: none;
+    background: transparent;
+}

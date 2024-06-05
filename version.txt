@@ -1,0 +1,61 @@
+ver.0.7.0
+
+-assessment, dashboard, result created
+-only front-end
+
+ver.0.7.1
+
+-some code are now php
+-front-end finished
+-still no function
+
+ver.0.7.2
+
+- connected to database
+- all of them are now at php
+- dashboard shows the user email 
+- profile logout button
+- session(); implementation
+- added JavaScript function
+
+ver.0.7.3
+
+- reduce php file
+- forgot password
+- no more auto suggestions in login, signup
+- feedback when email or password is wrong in login
+
+ver.0.7.4
+
+- assessment display function
+- some minor changes
+
+ver.0.7.5 
+
+- result page function
+
+ver.0.7.6
+
+- admin page
+- some adjustments on the assessment 
+
+ver.0.7.7 
+
+- adjustment on feedbacks in login, registration, and forgot_password
+- admin and super admin functions
+
+ver.0.7.8
+
+- adjustments on the login, signup, and forgot password
+- the assessment is now connected to the database and the response are saved as numbers (note: there are only 6 questions present)
+- disassembled the result page for preparation
+
+ver.0.7.9
+
+- Result update
+  -now showing different result based on the assessment
+- search record admin update
+
+ver.0.8.0
+-fixed the bug on the result page
+-final update

@@ -1,0 +1,88 @@
+/* General Styles */
+.signup_class {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Comic Sans MS;
+}
+
+/* Container */
+.signup_container {
+    position: relative;
+    border: solid 2px black;
+    border-radius: 12px;
+    width: 30rem;
+    height: 48rem;
+    padding: 1rem;
+    background: white;
+}
+
+/* Logo */
+.signup_logo {
+    display: flex;
+    justify-content: center;
+}
+
+/* Headings */
+.signup_container h1,
+.signup_container h2 {
+    font-size: 20px;
+}
+
+/* Inputs */
+.input_box {
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 12px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 4rem;
+}
+
+/* Password Design */
+.sign_password_design {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/* Hide/Unhide Password Button */
+.sign_password_design img,
+.hide_unhide_password_button {
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    right: 0.8rem;
+    margin-top: -0.65rem;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+/* Signup Button */
+.signup_button {
+    width: 100%;
+    height: 2.5rem;
+    background: #0E46A3;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+/* Login Section */
+.signup_login {
+    text-align: center;
+    margin-top: 1rem;
+}
